@@ -44,16 +44,20 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 [I did not use any outside sources to complete my submission]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 [I initially had a hard time writing code for ythe game logic using the given diagram.I was able to overcome this challange by writing pseudocode fromn the given diagram and ultimately writing code for the game logic.I also experienced challanges recording the gif for my project, since my gif did not incorporate the audio component of my project. I then decided to contact the TAs on slack, and read on other students posts, which reflected the same issue.I therefore decided to submit my gif without audio with the assurance of one of the TAs that the audio component would still play on the actual project as long as it was implemented in the project. ]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+[The prework made me curious about fron-end and back end web development, and especially about database requirements for back-end development.I am also curious about the different factors that go into determing whether or not to include a third party application when building a website.In what cases do website developers decide to incorporate log in features for their websites?How do website developers maintain their websites so that they continuosly stay relevant for the target audience, and particularly do the website developers themselves take part in field research or is this responsibility delegated to other people?Additionally, what are some of the different features implemented in different websites to make them accessible especially to people living
+with disabilities?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[I would definitely spend time working on additional features such that allow multiplayer gaming.This would also include online chatting.I would also include a score board to keep tabs on the players' scores. I would implement different difficulty levels, with the more diificult levels including random pattern generators. I would increase the pace of the playback after each turn.I would also work on incorporating popular music as the audio, therefore incorporate a puzzle aspect to the game. I would use extra hours to implement a hints feature, where each player has a limited number of hints for every round.]
 
 
 
