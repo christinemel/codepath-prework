@@ -12,19 +12,19 @@ Link to project: ( https://longing-noisy-throat.glitch.me/)
 
 The following **required** functionality is complete:
 
-* [ ] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [ ] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [ ] Game buttons each light up and play a sound when clicked. 
-* [ ] Computer plays back sequence of clues including sound and visual cue for each button
-* [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [ ] User wins the game after guessing a complete pattern
-* [ ] User loses the game after an incorrect guess
+* [✔️] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [✔️] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [✔️] Game buttons each light up and play a sound when clicked. 
+* [✔️] Computer plays back sequence of clues including sound and visual cue for each button
+* [✔️] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [✔️] User wins the game after guessing a complete pattern
+* [✔️] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
 * [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
+* [✔️] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
@@ -39,17 +39,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![](http://g.recordit.co/Q2MMhWfLtN.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+[I did not use any outside sources to complete my submission]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[I initially had a hard time writing code for ythe game logic using the given diagram.I was able to overcome this challange by writing pseudocode fromn the given diagram and ultimately writing code for the game logic.I also experienced challanges recording the gif for my project, since my gif did not incorporate the audio component of my project. I then decided to contact the TAs on slack, and read on other students posts, which reflected the same issue.I therefore decided to submit my gif without audio with the assurance of one of the TAs that the audio component would still play on the actual project as long as it was implemented in the project. ]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
@@ -66,7 +64,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Christine Mel]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
