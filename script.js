@@ -70,11 +70,11 @@ g.connect(context.destination)
 g.gain.setValueAtTime(0,context.currentTime)
 o.connect(g)
 o.start(0)
-
+//function to make the buttons light when selected
 function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit")
 }
-
+//function to make the buttons return to original color when deselected
 function clearButton(btn){
   document.getElementById("button"+btn).classList.remove("lit")
 }
