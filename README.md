@@ -46,11 +46,11 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-[I did not use any outside sources to complete my submission]
+[I did not use any outside sources to complete my submission.]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-[I initially had a hard time writing code for ythe game logic using the given diagram.I was able to overcome this challange by writing pseudocode fromn the given diagram and ultimately writing code for the game logic.I also experienced challanges recording the gif for my project, since my gif did not incorporate the audio component of my project. I then decided to contact the TAs on slack, and read on other students posts, which reflected the same issue.I therefore decided to submit my gif without audio with the assurance of one of the TAs that the audio component would still play on the actual project as long as it was implemented in the project. ]
+[I initially had a hard time writing code for ythe game logic using the given diagram.I was able to overcome this challange by writing pseudocode fromn the given diagram and ultimately writing code for the game logic.I also experienced challanges recording the gif for my project, since my gif did not incorporate the audio component of my project. I then decided to contact the TAs on slack, and read on other students posts, which reflected the same issue.I therefore decided to submit my gif without audio with the assurance of one of the TAs that the audio component would still play on the actual project as long as it was implemented in the project.] 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
@@ -59,7 +59,7 @@ with disabilities?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-[I would definitely spend time working on additional features such that allow multiplayer gaming.This would also include online chatting.I would also include a score board to keep tabs on the players' scores. I would implement different difficulty levels, with the more diificult levels including random pattern generators. I would increase the pace of the playback after each turn.I would also work on incorporating popular music as the audio, therefore incorporate a puzzle aspect to the game. I would use extra hours to implement a hints feature, where each player has a limited number of hints for every round.I would also test out the user friendliness of my website by having some of my friends play the game and give feedback on how to improve the website, or any additional features to include on the website. ]
+[I would definitely spend time working on additional features such that allow multiplayer gaming.This would also include online chatting.I would also include a score board to keep tabs on the players' scores. I would implement different difficulty levels, with the more diificult levels including random pattern generators. I would increase the pace of the playback after each turn.I would also work on incorporating popular music as the audio, therefore incorporate a puzzle aspect to the game. I would use extra hours to implement a hints feature, where each player has a limited number of hints for every round.I would also test out the user friendliness of my website by having some of my friends play the game and give feedback on how to improve the website, or any additional features to include on the website.] 
 
 
 
