@@ -1,5 +1,4 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+
 
 //Global Variables
 var pattern = [2, 5, 4, 3, 2, 1, 6, 4];
@@ -11,14 +10,16 @@ var guessCounter =0;
 const clueHoldTime = 1000; //how long to hold each clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
+
 function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
     document.getElementById("startBtn").classList.add("hidden");
     document.getElementById("stopBtn").classList.remove("hidden");
-   playClueSequence();
+    playClueSequence();
 }
+
 function stopGame(){
   gamePlaying = false;
   document.getElementById("startBtn").classList.remove("hidden");
@@ -33,6 +34,7 @@ const freqMap = {
   5: 524,
   6: 300
 }
+
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
   g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025)
@@ -42,6 +44,7 @@ function playTone(btn,len){
     stopTone()
   },len)
 }
+
 function startTone(btn){
   if(!tonePlaying){
     context.resume()
@@ -51,6 +54,7 @@ function startTone(btn){
     tonePlaying = true
   }
 }
+
 function stopTone(){
   g.gain.setTargetAtTime(0,context.currentTime + 0.05,0.025)
   tonePlaying = false
@@ -66,13 +70,15 @@ g.connect(context.destination)
 g.gain.setValueAtTime(0,context.currentTime)
 o.connect(g)
 o.start(0)
-
+//function to make the buttons light when selected
 function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit")
 }
+//function to make the buttons return to original color when deselected
 function clearButton(btn){
   document.getElementById("button"+btn).classList.remove("lit")
 }
+
 function playSingleClue(btn){
   if(gamePlaying){
     lightButton(btn);
@@ -80,6 +86,7 @@ function playSingleClue(btn){
     setTimeout(clearButton,clueHoldTime,btn);
   }
 }
+
 function playClueSequence(){
   guessCounter =0;
   context.resume()
@@ -91,21 +98,24 @@ function playClueSequence(){
     delay += cluePauseTime;
   }
 }
+
 function loseGame(){
   stopGame();
   alert("Game Over. You lost.");
 }
+
 function winGame(){
   stopGame();
   alert("Game Over. You won!");
 }
+
 function guess(btn){
   console.log("user guessed: " + btn);
   if(!gamePlaying){
     return;
   }
   
-  // add game logic here
+  // this is the game logic
    if(pattern[guessCounter] == btn){
     
     if(guessCounter == progress){
@@ -120,6 +130,6 @@ function guess(btn){
       guessCounter++;
     }
   }else{
-    loseGame();
+   loseGame();
   }
 }
