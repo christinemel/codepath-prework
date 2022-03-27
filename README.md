@@ -57,7 +57,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 with disabilities?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[I would definitely spend time working on additional features such that allow multiplayer gaming.This would also include online chatting.I would also include a score board to keep tabs on the players' scores. I would implement different difficulty levels, with the more diificult levels including random pattern generators. I would increase the pace of the playback after each turn.I would also work on incorporating popular music as the audio, therefore incorporate a puzzle aspect to the game. I would use extra hours to implement a hints feature, where each player has a limited number of hints for every round.]
+[I would definitely spend time working on additional features such that allow multiplayer gaming.This would also include online chatting.I would also include a score board to keep tabs on the players' scores. I would implement different difficulty levels, with the more diificult levels including random pattern generators. I would increase the pace of the playback after each turn.I would also work on incorporating popular music as the audio, therefore incorporate a puzzle aspect to the game. I would use extra hours to implement a hints feature, where each player has a limited number of hints for every round.I would also test out the user friendliness of my website by having some of my friends play the game and give feedback on how to improve the website, or any additional features to include on the website. ]
 
 
 
