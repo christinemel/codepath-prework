@@ -5,7 +5,7 @@
 
 Submitted by: **Christine Mel**
 
-Time spent: **#** hours spent in total  https://glitch.com.
+Time spent: **6** hours spent in total  https://glitch.com.
 
 Link to project: ( https://longing-noisy-throat.glitch.me/)
 
