@@ -70,9 +70,6 @@ with disabilities?]
 
 
 
-## Interview Recording URL Link
-
-[My 5-minute Interview Recording](https://drive.google.com/file/d/12kBcMP6BBWqOr_ADMsOo4pXLpHAhjqVA/view?usp=sharing)
 
 
 ## License
